@@ -16,7 +16,7 @@ This is a basic single-page React application.
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/your-react-app.git
+   git clone https://github.com/Atlegang777/accenture-test.git
    ```
 
 ## Usage
