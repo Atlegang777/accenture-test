@@ -11,7 +11,7 @@ function Footer() {
   ];
 
   return (
-    <div className="footer-container">
+    <div className="footer-container" id="section4">
         <div className="center">
         <div className="title">
         <div className="dash"></div>

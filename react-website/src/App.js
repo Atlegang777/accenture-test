@@ -11,9 +11,9 @@ function App() {
     <div style={{scrollBehavior: "smooth"}}>
       <Navbar />
       <Intro />
-      <CaseStudy id="section2"/>
-      <Industries id="section3"/>
-      <Footer id="section4"/>
+      <CaseStudy />
+      <Industries />
+      <Footer />
     </div>
   );
 }

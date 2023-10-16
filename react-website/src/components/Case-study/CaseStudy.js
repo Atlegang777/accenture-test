@@ -35,7 +35,7 @@ function CaseStudy() {
   }
 
   return (
-    <div className="center">
+    <div className="center" id="section2">
       <div>
         <div className="title">
           <div className="dash"></div>

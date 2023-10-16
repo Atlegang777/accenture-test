@@ -22,7 +22,7 @@ function Industries() {
   ];
 
   return (
-    <div className="center">
+    <div className="center" id="section3">
       <div className="title">
         <div className="dash"></div>
         <p className="case-study-title">You’ll be in good company </p>
