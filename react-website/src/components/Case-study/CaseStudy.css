@@ -1,0 +1,98 @@
+.case-study-title {
+    color: #000;
+
+    /* subtitle/is-5 */
+    font-family: Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 30px */
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* width: 100%; */
+    gap: 41px;
+
+    /* width: 450px;
+    /* height:600px; */
+    /* overflow: hidden; */
+
+}
+
+.image-item {
+    display: flex;
+    width: 450px;
+    height: 399px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+    position: relative;
+
+    background-size: auto;
+    background: var(--shades-white, #FFF);
+    box-shadow: 0px 8px 16px 0px rgba(54, 54, 54, 0.10);
+
+    /* left: -450px; */
+}
+
+.image-text-container {
+    display: flex;
+    width: 400px;
+    padding: 24px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 16px;
+
+    position: absolute;
+    bottom: 0px;
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.85) 100%);
+}
+
+.image-title {
+    color: var(--shades-white, #FFF);
+
+    /* heading/is-3 */
+    font-family: Helvetica;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 38.4px */
+}
+
+.image-description {
+    align-self: stretch;
+    color: var(--shades-white, #FFF);
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+
+}
+
+
+
+
+/* ImageSlider.css */
+
+.image-slider-container {
+    width: 450px;
+    /* Adjust the container width as needed */
+    overflow: hidden;
+}
+
+.image-slider {
+    display: flex;
+    width: 900px;
+    /* 300px per image times 3 images */
+    transition: transform 1s linear;
+    /* Adjust the transition duration as needed */
+}
